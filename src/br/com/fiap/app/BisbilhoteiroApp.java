@@ -23,7 +23,7 @@ public class BisbilhoteiroApp {
 		List<ResumoDia> resumoDias = new ArrayList<ResumoDia>();
 		String mensagem;
 		String hashtag = "#java";
-		String destinatario = "@wkopti";//"@michelpf";
+		String destinatario = "@michelpf";
 
 		try {
 			tweets = tweetBusiness.buscarTweets(twitter, hashtag);
